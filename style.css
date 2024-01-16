@@ -1,0 +1,767 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+    *{
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        box-sizing: border-box;
+        list-style-type: none;
+        text-decoration: none;
+    }
+
+    body{
+        font-family: 'Poppins', sans-serif;
+        background-color: #fff5e7;
+    }
+
+    .divLogo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo{
+        max-width: 80%;
+    }
+
+    #myLinks{
+        padding-left: 1rem;
+        background-color: #2c2219;
+    }
+    
+    .label-menu{
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
+        padding-top: 0.8rem;
+        height: 100%;
+        display: flex;
+        align-items: center;
+
+    }
+
+    .topnav {
+        overflow: hidden;
+        background-color: #625346;
+        position: relative;
+        
+    }
+    
+    .topnav #myLinks {
+        display: none;
+        line-height: 1.25rem;
+    }
+    
+    .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+    
+    .topnav a.icon {
+        background: #e2d6c4;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    
+    .topnav a:hover {
+        background-color: #e2d6c4;
+        color: #3b362e;
+    }
+    
+    .active {
+        background-color: #61564c;
+        color: white;
+    }
+
+    .banner-img{
+        max-width: 100%;
+    }
+   
+    .banner-div{
+        height: 200px;
+    }
+    
+    .main-content{
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+
+    .container2 {  display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 3px 3px; 
+        grid-auto-flow: row;
+        grid-template-areas:
+          "text text Img2 Img2 Img2"
+          "text text Img2 Img2 Img2"
+          "img3 img3 img4 img5 img6"
+          "img3 img3 img4 text2 text2"
+          "img3 img3 img8 text2 text2"
+          "text3 text3 text3 img9 img9";
+      }
+      
+      .text { 
+        grid-area: text; 
+        background-color: #e2d6c4;
+        padding: 20px;
+        font-weight: 300;
+        font-size: 1.2rem;
+        color: #463c32;
+    }
+      
+      .Img2 { 
+        grid-area: Img2; 
+        background-image: url(img/banner.png); 
+        background-size: cover;  
+        background-position: center; 
+        height: 200px;
+    }
+      
+      .img4 { 
+        grid-area: img4; 
+        background-image: url(img/banner3.png); 
+        background-size: cover; 
+        background-position: center;
+    }
+      
+      .img5 { 
+        grid-area: img5; 
+        background-image: url(img/banner2.png); 
+        background-size: cover; 
+        background-position: center;}
+      
+      .img6 { 
+        grid-area: img6;  
+        background-image: url(img/banner4.png); 
+        background-size: cover; 
+        background-position: center;
+    }
+      
+      .text2 { 
+        grid-area: text2;
+        background-color: #e2d6c4;
+        padding: 20px;
+        font-weight: 300;
+        font-size: 1.2rem;
+        color: #625346;
+    }
+      
+      .img3 { 
+        grid-area: img3;  
+        background-image: url(img/banner5.png); 
+        background-size: cover; 
+        background-position: center;}
+      
+      .img8 { 
+        grid-area: img8; 
+        background-image: url(img/banner7.png); 
+        background-size: cover; 
+        background-position: center;}
+      
+      .text3 { 
+        grid-area: text3; 
+        background-color: #e2d6c4;
+        padding: 20px;
+        font-weight: 300;
+        font-size: 1.2rem;
+        color: #61564c;
+    }
+      
+      .img9 { 
+        grid-area: img9; 
+        background-image: url(img/banner6.png); 
+        background-size: cover; 
+        background-position: center;
+    }
+
+    .scopri{
+        color: #2c2219;
+        font-size: 1.1rem;
+        font-weight: 400;
+        text-decoration: underline;
+    }
+
+    .filati{
+        margin-bottom: 30px;
+    }
+
+    
+    h2{
+        font-size: 2rem;
+        font-weight: 400;
+        text-align: center;
+        padding: 30px 30px 5px 30px;
+        color: #61564c;
+    }
+
+    .img-azienda{
+        margin-top: 30px;
+        max-width: 100%;
+        
+    }
+
+    .descrizioni{
+        text-align: justify;
+        padding: 10px 30px;
+    }
+
+    .cit{
+        text-align: justify;
+        padding: 10px 30px;
+        font-size: 0.8rem
+    }
+
+    .servizi-desc{
+      text-align: justify;
+      padding: 10px 30px;
+    }
+    
+    .servizi-cit{
+      text-align: justify;
+      padding: 10px 30px;
+      font-size: 0.8rem
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        vertical-align: middle;
+        display: inline-block;
+    }
+    
+    .grid-wrapper{
+        margin-top: 30px;
+       
+    }
+    
+    .grid-wrapper > div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .grid-wrapper > div > img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 0px;
+    }
+    
+    .grid-wrapper {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-auto-rows: 200px;
+        grid-auto-flow: dense;
+    }
+    .grid-wrapper .wide {
+        grid-column: span 2;
+    }
+    .grid-wrapper .tall {
+        grid-row: span 2;
+    }
+    .grid-wrapper .big {
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+
+    .indirizzo{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+  input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #625346;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #61564c;
+}
+
+.container3 {
+  border-radius: 5px;
+  padding: 20px;
+  max-width: 100%;
+}
+
+.footer-dark {
+  padding:50px 0;
+  color:#f0f9ff;
+  background-color:#282d32;
+}
+
+.footer-dark h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.footer-dark ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+
+.footer-dark ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.6;
+}
+
+.footer-dark ul a:hover {
+  opacity:0.8;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item:not(.social) {
+    text-align:center;
+    padding-bottom:20px;
+  }
+}
+
+.footer-dark .item.text {
+  margin-bottom:36px;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item.text {
+    margin-bottom:0;
+  }
+}
+
+.footer-dark .item.text p {
+  opacity:0.6;
+  margin-bottom:0;
+}
+
+.footer-dark .item.social {
+  text-align:center;
+}
+
+@media (max-width:991px) {
+  .footer-dark .item.social {
+    text-align:center;
+    margin-top:20px;
+  }
+}
+
+.footer-dark .item.social > a {
+  font-size:20px;
+  width:36px;
+  height:36px;
+  line-height:36px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+  margin:0 8px;
+  color:#fff;
+  opacity:0.75;
+}
+
+.footer-dark .item.social > a:hover {
+  opacity:0.9;
+}
+
+.footer-dark .copyright {
+  text-align:center;
+  padding-top:24px;
+  opacity:0.3;
+  font-size:13px;
+  margin-bottom:0;
+}
+
+@media only screen and (min-width: 600px) {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff5e7;
+}
+
+.divLogo{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.logo{
+    max-width: 20%;
+}
+
+#myLinks{
+    padding-left: 1rem;
+    background-color: #2c2219;
+}
+
+.label-menu{
+    writing-mode: horizontal-tb;
+    text-orientation: mixed;
+    padding-top: 0.8rem;
+    font-weight: 300;
+    font-size: 1.4rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #625346;
+    position: relative;
+    
+}
+
+.topnav #myLinks {
+    display: none;
+    line-height: 1.25rem;
+}
+
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+.topnav a.icon {
+    background: transparent;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.topnav  {
+    background-color: #e2d6c4;
+    color: #3b362e;
+}
+
+
+.active {
+    background-color: #61564c;
+    color: white;
+}
+
+.banner-img{
+    max-width: 100%;
+}
+
+.banner-div{
+    height: 200px;
+}
+
+.main-content{
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.container2 {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 3px 3px; 
+    grid-auto-flow: row;
+    grid-template-areas:
+      "text text Img2 Img2 Img2"
+      "text text Img2 Img2 Img2"
+      "img3 img3 img4 img5 img6"
+      "img3 img3 img4 text2 text2"
+      "img3 img3 img8 text2 text2"
+      "text3 text3 text3 img9 img9";
+  }
+  
+  .text { 
+    grid-area: text; 
+    background-color: #e2d6c4;
+    padding: 50px 30px;
+    font-weight: 300;
+    font-size: 5rem;
+    color: #463c32;
+}
+  
+  .Img2 { 
+    grid-area: Img2; 
+    background-image: url(img/banner.png); 
+    background-size: cover;  
+    background-position: center; 
+    height: 600px;
+}
+  
+  .img4 { 
+    grid-area: img4; 
+    background-image: url(img/banner3.png); 
+    background-size: cover; 
+    background-position: center;
+}
+  
+  .img5 { 
+    grid-area: img5; 
+    background-image: url(img/banner2.png); 
+    background-size: cover; 
+    background-position: center;}
+  
+  .img6 { 
+    grid-area: img6;  
+    background-image: url(img/banner4.png); 
+    background-size: cover; 
+    background-position: center;
+}
+  
+  .text2 { 
+    grid-area: text2;
+    background-color: #e2d6c4;
+    padding-left: 50px;
+    font-weight: 300;
+    font-size: 5rem;
+    color: #625346;
+}
+  
+  .img3 { 
+    grid-area: img3;  
+    background-image: url(img/banner5.png); 
+    background-size: cover; 
+    background-position: center;}
+  
+  .img8 { 
+    grid-area: img8; 
+    background-image: url(img/banner7.png); 
+    background-size: cover; 
+    background-position: center;}
+  
+  .text3 { 
+    grid-area: text3; 
+    background-color: #e2d6c4;
+    padding: 20px;
+    padding-left: 50px;
+    font-weight: 300;
+    font-size: 5rem;
+    color: #61564c;
+}
+  
+  .img9 { 
+    grid-area: img9; 
+    background-image: url(img/banner6.png); 
+    background-size: cover; 
+    background-position: center;
+}
+
+.scopri{
+    color: #2c2219;
+    font-size: 4.9rem;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.filati{
+    margin-bottom: 30px;
+}
+
+
+h2{
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+    padding: 30px 30px 5px 30px;
+    color: #61564c;
+}
+
+.img-azienda{
+    margin-top: 30px;
+    max-width: 100%;
+    
+}
+
+.descrizioni{
+    text-align: justify;
+    padding: 10px 300px;
+}
+
+.cit{
+    text-align: justify;
+    padding: 10px 300px;
+    font-size: 0.8rem
+}
+
+.dove-siamo{
+  width: 50%;
+  padding: 50px;
+}
+
+.contatti{
+  width: 50%;
+  padding: 50px;
+}
+
+.mission{
+  padding: 50px 0px;
+}
+
+.chi-siamo{
+  padding: 50px 0px;
+}
+
+.dovesiamo-conatti{
+  padding: 0px 50px;
+  display: flex;
+}
+
+.servizi{
+  padding: 50px 0px;
+}
+
+.servizi-desc{
+  text-align: justify;
+  padding: 20px 300px;
+}
+
+.servizi-cit{
+  text-align: justify;
+  padding: 20px 300px;
+  font-size: 0.8rem
+}
+
+.dovesiamo-desc{
+  text-align: justify;
+  padding: 20px 30px;
+}
+
+#googleMap{
+  margin-top: 40px;
+  width:100%;
+  height:400px;
+}
+
+.img-certificazioni{
+
+ display:flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.sostenibilita-desc{
+  text-align: justify;
+  padding: 20px 300px;
+}
+
+.sostenibilita{
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.grid-wrapper{
+    margin-top: 30px;
+   
+}
+
+.grid-wrapper > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid-wrapper > div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0px;
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 200px;
+    grid-auto-flow: dense;
+}
+.grid-wrapper .wide {
+    grid-column: span 2;
+}
+.grid-wrapper .tall {
+    grid-row: span 2;
+}
+.grid-wrapper .big {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.indirizzo{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input[type=text], select, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+margin-top: 6px;
+margin-bottom: 16px;
+resize: vertical;
+}
+
+input[type=submit] {
+background-color: #625346;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+input[type=submit]:hover {
+background-color: #61564c;
+}
+
+.container3 {
+border-radius: 5px;
+max-width: 100%;
+}
+
+
+
+}
+  
